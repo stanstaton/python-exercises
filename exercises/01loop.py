@@ -13,3 +13,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(num, string):
+    for i in range(num):
+        print(string)
+
+p_times(3, "This is the end")

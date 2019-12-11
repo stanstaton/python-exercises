@@ -10,3 +10,17 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(arr, number):
+    my_list = []
+    for item in arr:
+        # print(item)
+        my_list.append(item*number)
+    return my_list
+
+print(multiply_by([1,2,3], 4))
+
+def multiply_by2(ls, num):
+    # lambda function
+    new_list = map(lambda x: num * x, ls)
+    return new_list
